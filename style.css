@@ -61,3 +61,55 @@ a {
     font-weight: 700;
 
 }
+
+.banner-container {
+    display: flex;
+    flex: 1 1 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10rem;
+    gap: 2rem;
+    background-color: var(--dark-blue);
+}
+
+.banner-left-section {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-left-section h2 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.banner-left-section p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.banner-left-section button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    max-width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--light-blue);
+}
+
+.banner-left-section button:hover {
+    transform: scale(1.2);
+}
+
+.banner-right-section {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-right-section img {
+    max-width: 600px;
+
+}

@@ -12,13 +12,10 @@
 }
 
 body {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     font-family: "Roboto", sans-serif;
-    /* text-align: center; */
     height: 100vh;
-    width: 100vw;  
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 a {
@@ -148,4 +145,90 @@ a {
     max-width: 200px;
     text-align: center;
     color: grey;
+}
+
+.quote-container {
+    background-color: var(--grey);
+    padding: 7rem 25rem;
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.quote-text {
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.quote-author {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.cta-flex-container {
+    display: flex;
+    align-items: center;
+    padding: 3rem 8rem;
+    background: var(--light-blue);
+    color: white;
+    width: 80vw;
+    border-radius: 15px;
+}
+
+.cta-text-container {
+    flex-basis: 100%;
+}
+
+.cta-tittle {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cta-body {
+    font-size: 1rem;
+}
+
+.cta-button-container {
+    text-align: center;
+}
+
+.cta-button-container button {
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: white solid 3px;
+    background-color: var(--light-blue);
+}
+
+.cta-button a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background: var(--dark-blue);
+    color: white;
+}
+
+.copyright-container p {
+    font-size: 1.2rem;
 }
